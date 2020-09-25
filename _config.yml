@@ -48,13 +48,14 @@ url: "" # the base hostname & protocol for your site
 twitter_url:
 facebook_url:
 googleplus_url:
-instagram_url:
+instagram_url: https://www.instagram.com/orga.datos/
 linkedin_url:
 github_url: https://github.com/orga-de-datos
 stackoverflow_url:
 pinterest_url:
 slack_url:
 dribbble_url:
+youtube_url: https://youtube.com/channel/UCWCkHWCIlFbzRSkKc363irw
 
 # Google Analytics Tracking ID goes here:
 google_analytics:
