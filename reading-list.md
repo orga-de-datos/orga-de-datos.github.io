@@ -7,6 +7,6 @@ order: 3
 ---
 
 - [Drive con las clases](https://drive.google.com/drive/folders/1hbPqqKadiZExcehsQH7nHjXQIvzACtmv?usp=sharing)
-- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/orga-de-datos/practicas/notebooks)[Notebooks de las practicas](https://github.com/orga-de-datos/practicas/tree/notebooks)
+- [Notebooks de las practicas](https://github.com/orga-de-datos/practicas/tree/notebooks)  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/orga-de-datos/practicas/notebooks)
 - [Guia de ejercicios](https://github.com/orga-de-datos/practicas/blob/guia-ejs/guia.pdf)
 
