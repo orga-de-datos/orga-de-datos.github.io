@@ -5,7 +5,7 @@ order: 3
 ---
 
 - Para poder cursar se deberá tener aprobada la cursada de todas las correlativas de la materia, según el plan correspondiente
-- Se evaluará **un** tp grupal de **2 personas** a lo largo de todo el curso, que tendrá 2 instancias de evaluacion.
+- Se evaluará **un** tp grupal de **2 personas** a lo largo de todo el curso, que tendrá 2 instancias de evaluación
 - Habrá un parcial (y sus respectivos 2 recuperatorios)
-- Se puede promocionar, los criterios se detallaran al inicio de la cursada
+- Se puede promocionar, los criterios se detallarán al inicio de la cursada
 
