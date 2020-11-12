@@ -8,6 +8,7 @@ order: 3
 
 # Links
 - [TP - Parte 1](https://github.com/orga-de-datos/practicas/blob/master/2020-2c-tp/enunciado_parte1.md)
+- [TP - Parte 2](https://github.com/orga-de-datos/practicas/blob/master/2020-2c-tp/enunciado_parte2.md)
 - [Guia de instalacion del entorno](https://github.com/orga-de-datos/practicas/blob/master/README.md#guía-de-instalación-del-entorno)
 
 # Bilbiografía
