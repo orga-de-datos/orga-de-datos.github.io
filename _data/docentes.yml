@@ -1,0 +1,34 @@
+jdc:
+
+- nombre: Jorge Collinet
+  foto: /assets/images/docentes/jorge.jpg
+  mail: jcollinet@fi.uba.ar
+  github: jorgeCollinet
+
+jtp:
+
+- nombre: Juan Manuel Ortiz de Zarate
+  foto: /assets/images/docentes/jmodz.jpg
+  mail: jortizz@fi.uba.ar
+  github: jmanuoz
+
+ayudantes:
+- nombre: Sofia Morseletto
+  foto: /assets/images/docentes/sofi.jpg
+  mail: smorseletto@fi.uba.ar
+  github: sofiamorseletto
+
+- nombre: Camilo Plata
+  foto:
+  mail: camilo1704@gmail.com
+  github: Camilo1704
+
+- nombre: Gianmarco Cafferata
+  foto: /assets/images/docentes/gian.png
+  mail: gcafferata@fi.uba.ar
+  github: jian01
+
+- nombre: Javier Mermet
+  foto: /assets/images/docentes/javi.jpeg
+  mail: imermet@fi.uba.ar
+  github: CrossNox

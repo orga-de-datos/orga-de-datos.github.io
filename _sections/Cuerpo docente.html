@@ -4,7 +4,72 @@ icon: fa-users
 order: 5
 ---
 
-<a href="#" class="image featured"><img src="assets/images/pic08.jpg" alt="" /></a>
-
-<p>Pronto nos vas a conocer :D</p>
-
+<div class="row">
+  <div class="col-md-12">
+      {% assign jtp = site.data.docentes.jtp[0] %}
+      {% assign jdc = site.data.docentes.jdc[0] %}
+      <div class="row justify-content-center">
+        <div class="col-6">
+          <figure class="figure text-center d-block">
+            <img class="figure-img rounded img-fluid" title="Titular - {{jdc.nombre}}" src="{{jdc.foto | default: "/assets/images/docentes/unknown.png" | relative_url}}" alt="{{jdc.nombre}}">
+            <figcaption class="figure-caption">
+              <span>Titular - {{jdc.nombre}}</span>
+              <div class="docente-social">
+                {% if jdc.mail %}
+                <a href="mailto:{{jdc.mail}}"
+                   class="btn-social btn-outline social-link"><span class="fa fa-fw fa-envelope"></span></a>
+                {% endif %}
+                {% if jdc.github %}
+                <a href="https://github.com/{{jdc.github}}"
+                   class="btn-social btn-outline social-link"><span class="fab fa-fw fa-github"></span></a>
+                {% endif %}
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-6">
+          <figure class="figure text-center d-block">
+            <img class="figure-img rounded img-fluid" title="JTP - {{jtp.nombre}}" src="{{jtp.foto | default: "/assets/images/docentes/unknown.png" | relative_url}}" alt="{{jtp.nombre}}">
+            <figcaption class="figure-caption">
+              <span>JTP - {{jtp.nombre}}</span>
+              <div class="docente-social">
+                {% if jtp.mail %}
+                <a href="mailto:{{jtp.mail}}"
+                   class="btn-social btn-outline social-link"><span class="fa fa-fw fa-envelope"></span></a>
+                {% endif %}
+                {% if jtp.github %}
+                <a href="https://github.com/{{jtp.github}}"
+                   class="btn-social btn-outline social-link"><span class="fab fa-fw fa-github"></span></a>
+                {% endif %}
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="row justify-content-center">      
+	<p>Ayudantes</p>
+      </div>	      
+      <div class="row justify-content-center">      
+	{% for docente in site.data.docentes.ayudantes %}
+        <div class="col-3">
+          <figure class="figure text-center d-block">
+            <img class="figure-img rounded img-fluid" title="{{docente.nombre}}" src="{{docente.foto | default: "/assets/images/docentes/unknown.png" | relative_url}}" alt="{{docente.nombre}}">
+            <figcaption class="figure-caption">
+              <span>{{docente.nombre}}</span>
+              <div class="docente-social">
+                {% if docente.mail %}
+                <a href="mailto:{{docente.mail}}"
+                   class="btn-social btn-outline social-link"><span class="fa fa-fw fa-envelope"></span></a>
+                {% endif %}
+                {% if docente.github %}
+                <a href="https://github.com/{{docente.github}}"
+                   class="btn-social btn-outline social-link"><span class="fab fa-fw fa-github"></span></a>
+                {% endif %}
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        {% endfor %}
+      </div>
+  </div>
+</div>
