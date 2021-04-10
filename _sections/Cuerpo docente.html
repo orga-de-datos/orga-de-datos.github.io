@@ -11,7 +11,7 @@ order: 5
       <div class="row justify-content-center">
         <div class="col-6">
           <figure class="figure text-center d-block">
-            <img class="figure-img rounded img-fluid" title="Titular - {{jdc.nombre}}" src="{{jdc.foto | default: "/assets/images/docentes/unknown.png" | relative_url}}" alt="{{jdc.nombre}}">
+            <img class="figure-img rounded img-fluid" title="Titular - {{jdc.nombre}}" src="{{jdc.foto | relative_url | default: site.default_img }}" alt="{{jdc.nombre}}">
             <figcaption class="figure-caption">
               <span>Titular - {{jdc.nombre}}</span>
               <div class="docente-social">
@@ -29,7 +29,7 @@ order: 5
         </div>
         <div class="col-6">
           <figure class="figure text-center d-block">
-            <img class="figure-img rounded img-fluid" title="JTP - {{jtp.nombre}}" src="{{jtp.foto | default: "/assets/images/docentes/unknown.png" | relative_url}}" alt="{{jtp.nombre}}">
+            <img class="figure-img rounded img-fluid" title="JTP - {{jtp.nombre}}" src="{{jtp.foto | relative_url | default: site.default_img}}" alt="{{jtp.nombre}}">
             <figcaption class="figure-caption">
               <span>JTP - {{jtp.nombre}}</span>
               <div class="docente-social">
@@ -53,7 +53,8 @@ order: 5
 	{% for docente in site.data.docentes.ayudantes %}
         <div class="col-3">
           <figure class="figure text-center d-block">
-            <img class="figure-img rounded img-fluid" title="{{docente.nombre}}" src="{{docente.foto | default: "/assets/images/docentes/unknown.png" | relative_url}}" alt="{{docente.nombre}}">
+		  <img class="figure-img rounded img-fluid" title={% if docente.foto %} "{{docente.nombre}}" {% else %} "{{docente.nombre}} no agregó una foto, así que tuvimos que generar una con una GAN (┛❍ᴥ❍﻿)┛彡┻━┻"{% endif %} src="{{docente.foto | relative_url | default: site.default_img}}" alt=
+		      {% if docente.foto %} "{{docente.nombre}}" {% else %} "{{docente.nombre}} no agregó una foto, así que tuvimos que generar una con una GAN (┛❍ᴥ❍﻿)┛彡┻━┻"{% endif %}>
             <figcaption class="figure-caption">
               <span>{{docente.nombre}}</span>
               <div class="docente-social">
