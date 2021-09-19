@@ -15,6 +15,5 @@ order: 3
 - [Guia de ejercicios](https://github.com/orga-de-datos/practicas/blob/guia-ejs/guia.pdf)
 - [Formulario de feedback de las clases](https://forms.gle/NRyH3pQUScuXEL5R9)
 
-# Enunciado TP - 2021C1
-- [Parte 1](https://github.com/orga-de-datos/practicas/blob/master/tps/2021-1c-tp/enunciado_parte1.md)
-- [Parte 2](https://github.com/orga-de-datos/practicas/blob/master/tps/2021-1c-tp/enunciado_parte2.md)
+# Enunciado TP - 2021C2
+- [Parte 1](https://github.com/orga-de-datos/practicas/blob/master/tps/2021-2c-tp/2021-2c-tp-parte1.md)
