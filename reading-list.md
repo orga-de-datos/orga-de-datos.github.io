@@ -17,3 +17,4 @@ order: 3
 
 # Enunciado TP - 2021C2
 - [Parte 1](https://github.com/orga-de-datos/practicas/blob/master/tps/2021-2c-tp/2021-2c-tp-parte1.md)
+- [Parte 2](https://github.com/orga-de-datos/practicas/blob/master/tps/2021-2c-tp/enunciado_parte2.md)
