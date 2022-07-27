@@ -59,7 +59,9 @@ youtube_url: https://youtube.com/channel/UCWCkHWCIlFbzRSkKc363irw
 google_analytics:
 
 # The following settings are NECESSARY for the Prologue theme to run:
-theme: jekyll-theme-prologue
+# theme: jekyll-theme-prologue
+remote_theme: chrisbobbe/jekyll-theme-prologue
+
 collections: [sections]
 
 default_img: https://thispersondoesnotexist.com/image

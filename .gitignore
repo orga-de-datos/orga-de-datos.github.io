@@ -3,3 +3,4 @@
 .sass-cache
 Gemfile.lock
 **.swp
+.jekyll-metadata
